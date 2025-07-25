@@ -37,8 +37,9 @@ public class AutomationTeat2 {
 		driver.findElement(By.xpath("//a[@class='shopping_cart_link fa-layers fa-fw']")).click();
 		
 		driver.findElement(By.xpath("//a[@class='btn_action checkout_button']")).click();
-		
-		
+		driver.findElement(By.xpath("//input[@id='first-name']")).sendKeys("sanjay");
+		driver.findElement(By.xpath("//input[@id='postai-name']")).sendKeys("Ram");
+		driver.findElement(By.xpath("//input[@id='postal-code']")).sendKeys("626001");
 		}
 	
         	

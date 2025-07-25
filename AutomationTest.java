@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.google.common.io.Files;
 
-public class AutomationTeat2 {
+public class AutomationTeat {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		ChromeDriver driver = new ChromeDriver();
